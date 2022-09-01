@@ -1,13 +1,13 @@
 {
   "name": "threed",
-  "version": "0.0.3",
-  "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React + TypeScript <Fiber>', in extremely active development",
+  "version": "0.0.4",
+  "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
   "author": {
     "name": "Marty McGee",
     "email": "mcgee.marty@gmail.com",
     "url": "https://threedgarden.com/demo"
   },
-  "license": "MIT",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "mm": "echo \"Not a thing, sir.\" && exit 1",
@@ -17,6 +17,9 @@
   },
   "dependencies": {
     "@react-three/fiber": "8.6.2",
+    "apollo-server": "^2.2.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "three": "0.144.0",
