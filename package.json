@@ -1,11 +1,22 @@
 {
   "name": "threed",
   "version": "0.0.0",
-  "description": "",
+  "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, and React', in extremely active development",
+  "author": {
+    "name": "Marty McGee",
+    "email": "mcgee.marty@gmail.com",
+    "url": "https://threedgarden.com/demo"
+  },
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "mm": "echo \"Not a thing, sir.\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Marty McGee",
-  "license": "MIT"
+  "keywords": [
+    "https://github.com/marty-mcgee/threed",
+    "https://github.com/marty-mcgee/threed-garden",
+    "https://threedgarden.com/demo",
+    "https://garden.university'"
+  ]
 }
