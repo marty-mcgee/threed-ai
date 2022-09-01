@@ -1,6 +1,6 @@
 {
   "name": "threed",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React + TypeScript <Fiber>', in extremely active development",
   "author": {
     "name": "Marty McGee",
