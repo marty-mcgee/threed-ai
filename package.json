@@ -1,6 +1,6 @@
 {
   "name": "threed",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, and React', in extremely active development",
   "author": {
     "name": "Marty McGee",
@@ -12,6 +12,13 @@
   "scripts": {
     "mm": "echo \"Not a thing, sir.\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.144.0",
+    "webgl": "0.0.7"
+
   },
   "keywords": [
     "https://github.com/marty-mcgee/threed",
