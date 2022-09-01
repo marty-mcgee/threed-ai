@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "mm": "echo \"Not a thing, sir.\" && exit 1",
+    "start": "node index.js",
     "dev": "echo \"Node Error: no 'dev' command specified\" && exit 1",
     "test": "echo \"Node Error: no 'test' command specified\" && exit 1"
   },
