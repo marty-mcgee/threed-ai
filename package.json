@@ -10,8 +10,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "mm": "echo \"Not a thing, sir.\" && exit 1",
-    "start": "node index.js",
+    "mm:node": "node index.js",
+    "mm:vite": "vite",
+    "mm:error": "echo \"Not a thing, sir.\" && exit 1",
+    "node:start": "node index.js",
     "vite:start": "vite",
     "dev": "echo \"Node Error: no 'dev' command specified\" && exit 1",
     "vite:build": "vite build",

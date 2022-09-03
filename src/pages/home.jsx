@@ -5,7 +5,8 @@ import { Link } from "wouter";
 
 // Our language strings for the header
 const strings = [
-  "Hello React",
+  "hello threed.ai",
+  "word = HEY HEY HEY",
   "Salut React",
   "Hola React",
   "안녕 React",
@@ -29,7 +30,7 @@ export default function Home() {
      - We'll call setHello when the user clicks to change the string
   */
   const [hello, setHello] = React.useState(strings[0]);
-  
+
   /* The wiggle function defined in /hooks/wiggle.jsx returns the style effect and trigger function
      - We can attach this to events on elements in the page and apply the resulting style
   */
@@ -37,16 +38,16 @@ export default function Home() {
 
   // When the user clicks we change the header language
   const handleChangeHello = () => {
-    
+
     // Choose a new Hello from our languages
     const newHello = randomLanguage();
-    
+
     // Call the function to set the state string in our component
     setHello(newHello);
   };
   return (
     <>
-      <h1 className="title">{hello}!</h1>
+      <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
         <img
@@ -67,7 +68,7 @@ export default function Home() {
       <div className="instructions">
         <h2>Using this project</h2>
         <p>
-          This is the Glitch <strong>Hello React</strong> project. You can use
+          This is <strong>threed.ai</strong> project. You can use
           it to build your own app. See more info in the{" "}
           <Link href="/about">About</Link> page, and check out README.md in the
           editor for additional detail plus next steps you can take!
