@@ -46,7 +46,35 @@
   },
   "optionalDependencies": {
     "farmbot": "^15.3.3",
-    "threed-garden": "^0.10.2"
+    "threed-garden": "^0.10.2",
+    
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@react-three/drei": "^9.14.3",
+    "@react-three/fiber": "^8.0.27",
+    "babel-plugin-glsl": "^1.0.0",
+    "glsl-random": "^0.0.5",
+    "next": "^12.2.3",
+    "next-pwa": "^5.5.4",
+    "three-stdlib": "^2.12.1",
+    "zustand": "^4.0.0",
+
+    "@next/bundle-analyzer": "^12.2.3",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.20.0",
+    "eslint-config-next": "^12.2.3",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-tailwind": "^0.2.1",
+    "file-loader": "^6.2.0",
+    "glslify": "^7.1.1",
+    "glslify-loader": "^2.0.0",
+    "next-offline": "^5.0.5",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^3.1.6",
+    "url-loader": "^4.1.1",
+
+    "webpack": ">=4.0.0 <6.0.0"
   },
   "browserslist": [
     ">0.2%",

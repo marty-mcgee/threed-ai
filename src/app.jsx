@@ -18,7 +18,7 @@ import "./styles/styles.css";
 import PageRouter from "./components/router.jsx";
 
 // The component that adds our Meta tags to the page
-import Seo from './components/seo.jsx';
+import Seo from './components/seo/seo.jsx';
 
 // Home function that is reflected across the site
 export default function Home() {
