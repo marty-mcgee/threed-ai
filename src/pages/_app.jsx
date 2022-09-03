@@ -1,10 +1,10 @@
-import { useRouter } from 'next/router'
-import { setState } from '~/stores/store'
 import { useEffect } from 'react'
-import Header from '~/components/seo/config'
-import Dom from '@/components/layout/dom'
-import '@/styles/index.css'
+import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
+import { setState } from 'src/stores/store'
+import Header from 'src/components/seo/config'
+import Dom from 'src/components/layout/dom'
+import 'src/styles/index.css'
 
 // ==============================================================
 // CUSTOM IMPORT (SSR true|false)

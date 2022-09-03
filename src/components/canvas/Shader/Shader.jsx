@@ -2,7 +2,7 @@
 import * as THREE from 'three'
 import { useFrame, extend } from '@react-three/fiber'
 import { useRef, useState } from 'react'
-import useStore from '~/stores/store'
+import useStore from 'src/stores/store'
 import { shaderMaterial } from '@react-three/drei'
 
 import vertex from 'raw-loader!glslify-loader!./glsl/shader.vert'

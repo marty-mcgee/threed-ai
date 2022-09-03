@@ -13,13 +13,13 @@ import { Router, Link } from "wouter"
 */
 
 // Import and apply CSS stylesheet
-import "~/styles/styles.css"
+import "src/styles/styles.css"
 
 // Where all of our pages come from
-import PageRouter from "~/components/router/router.jsx"
+import PageRouter from "src/components/router/router.jsx"
 
 // The component that adds our meta tags to the page
-import Seo from '~/components/seo/seo.jsx'
+import Seo from 'src/components/seo/seo.jsx'
 
 // ==============================================================
 // GRAPHQL -- APOLLO (SERVER, NOT CLIENT)
