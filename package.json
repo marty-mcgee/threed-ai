@@ -11,9 +11,11 @@
   "main": "index.js",
   "scripts": {
     ":_____________": "_____________________________________",
+    "mm":             "node index.js",
     "mm:node":        "node index.js",
     "mm:apollo":      "node src/servers/apollo.js",
     "mm:vite":        "vite",
+    "mm:next":        "next",
     "mm:error":       "echo \"Not a thing, sir.\" && exit 1",
     ":node_________": "_____________________________________",
     "node:start":     "node index.js",
@@ -95,7 +97,8 @@
     "tailwindcss": "^3.1.6",
     "url-loader": "^4.1.1",
 
-    "webpack": ">=4.0.0 <6.0.0"
+    "webpack": ">=4.0.0 <6.0.0",
+    "webpack-glsl-loader": "^1.0.1"
   },
   "browserslist": [
     ">0.2%",

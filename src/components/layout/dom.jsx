@@ -1,4 +1,4 @@
-import { setState } from '@/helpers/store'
+import { setState } from '~/stores/store'
 import { useEffect, useRef } from 'react'
 
 const Dom = ({ children }) => {

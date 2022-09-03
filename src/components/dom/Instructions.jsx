@@ -21,7 +21,7 @@ export default function Instructions() {
         <span className='text-red-200'> @/pages/box </span>
         <br />
         Step 4 - <span className='text-green-200'>update header:</span>
-        <span className='text-red-200'> @/config </span>
+        <span className='text-red-200'> ~/components/seo/config </span>
         <br />
         Step 5 - <span className='text-green-200'>delete:</span>
         <span className='text-red-200'> @/components/dom/Instructions</span>

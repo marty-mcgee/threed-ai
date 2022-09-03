@@ -1,4 +1,4 @@
-import useStore from '@/helpers/store'
+import useStore from '~/stores/store'
 import { useFrame } from '@react-three/fiber'
 import { useRef, useState } from 'react'
 
