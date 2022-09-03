@@ -19,7 +19,7 @@ import "src/styles/styles.css"
 import PageRouter from "src/components/router/router.jsx"
 
 // The component that adds our meta tags to the page
-import Seo from 'src/components/seo/seo.jsx'
+import Seo from '~/components/seo/seo.jsx'
 
 // ==============================================================
 // GRAPHQL -- APOLLO (SERVER, NOT CLIENT)

@@ -1,14 +1,14 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
-import { setState } from './src/stores/store'
-import Header from './src/components/seo/config'
-import Dom from './src/components/layout/dom'
-import './src/styles/index.css'
+import { setState } from '~/stores/store'
+import Header from '~/components/seo/config'
+import Dom from '~/components/layout/dom'
+import '~/styles/index.css'
 
 // ==============================================================
 // CUSTOM IMPORT (SSR true|false)
-const LCanvas = dynamic(() => import('./src/components/layout/canvas'), {
+const LCanvas = dynamic(() => import('~/components/layout/canvas'), {
   ssr: true,
 })
 
