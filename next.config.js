@@ -32,7 +32,7 @@ const nextConfig = {
       ],
     })
 
-    // shader support
+    // shader support (NOT WORKING ??)
     config.module.rules.push({
       test: /\.(glsl|vs|fs|vert|frag)$/,
       exclude: /node_modules/,

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import useStore from '~/stores/store'
 import { useFrame } from '@react-three/fiber'
 import { useRef, useState } from 'react'

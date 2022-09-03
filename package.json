@@ -1,6 +1,6 @@
 {
   "name": "threed",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
   "author": {
     "name": "Marty McGee",
@@ -119,6 +119,7 @@
     "https://garden.university",
     "threed",
     "threedgarden",
-    "threedgarden.eth"
+    "threedgarden.eth",
+    "threed,node,apollo,graphql,vite,next,three,react-three-fiber"
   ]
 }
