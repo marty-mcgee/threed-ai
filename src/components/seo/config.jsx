@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-const titleDefault = 'React Three Next Starter'
-const url = 'https://react-three-next.vercel.app/'
+const titleDefault = 'ThreeD.AI'
+const url = 'https://threed.ai/'
 const description =
   'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
 const author = 'Marty McGee'
@@ -29,16 +29,18 @@ const Header = ({ title = titleDefault }) => {
         <meta name='distribution' content='web' />
 
         {/* 
-          Facebook Open Graph meta tags
+          Facebook Open Graph Meta Tags
           docs: https://developers.facebook.com/docs/sharing/opengraph 
         */}
         <meta name='og:title' content={title} />
         <meta name='og:type' content='site' />
         <meta name='og:url' content={url} />
-        <meta name='og:image' content={'/favicon/share.png'} />
+        <meta name='og:image' content={'/favicon/apple-touch-icon.png'} />
         <meta name='og:site_name' content={title} />
         <meta name='og:description' content={description} />
 
+        {/* Favicons */}
+        <link rel='shortcut icon' href='/favicon/favicon.ico' />
         <link rel='apple-touch-icon' href='/favicon/apple-touch-icon.png' />
         <link
           rel='apple-touch-icon'
@@ -55,13 +57,15 @@ const Header = ({ title = titleDefault }) => {
           sizes='180x180'
           href='/favicon/apple-touch-icon.png'
         />
-        <link rel='manifest' href='/manifest.json' />
         <link
           rel='mask-icon'
           color='#000000'
           href='/favicon/safari-pinned-tab.svg'
         />
-        <link rel='apple-touch-startup-image' href='/startup.png' />
+        <link rel='apple-touch-startup-image' href='/favicon/apple-touch-icon.png' />
+
+        {/* Manifest */}
+        <link rel='manifest' href='/favicon/site.webmanifest' />
 
         {/* Meta Tags for HTML pages on Mobile */}
         {/* <meta name="format-detection" content="telephone=yes"/>
@@ -70,8 +74,7 @@ const Header = ({ title = titleDefault }) => {
           name='viewport'
           content='width=device-width, minimum-scale=1, initial-scale=1.0'
         />
-        <meta name='theme-color' content='#000' />
-        <link rel='shortcut icon' href='/favicon/favicon.ico' />
+        <meta name='theme-color' content='#222' />
 
         {/* 
       Twitter Summary card
