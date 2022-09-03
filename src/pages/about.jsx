@@ -28,7 +28,7 @@ export default function About() {
         to learn more about how to customize your content.
       </p>
       <p>
-        The Glitch community is glad to welcome you, and the Internet is better
+        The ThreeD + Glitch community is glad to welcome you, and the Internet is better
         when it&apos;s made by real people. We can&apos;t wait to see what you create!
       </p>
       <p>

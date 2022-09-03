@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { Router, Link } from "wouter";
+import React, { useState, useEffect } from "react"
+import { Router, Link } from "wouter"
 
+// ==============================================================
 /**
 * This code defines the react app
 *
@@ -12,14 +13,43 @@ import { Router, Link } from "wouter";
 */
 
 // Import and apply CSS stylesheet
-import "./styles/styles.css";
+import "~/styles/styles.css"
 
 // Where all of our pages come from
-import PageRouter from "./components/router/router.jsx";
+import PageRouter from "~/components/router/router.jsx"
 
-// The component that adds our Meta tags to the page
-import Seo from './components/seo/seo.jsx';
+// The component that adds our meta tags to the page
+import Seo from '~/components/seo/seo.jsx'
 
+// ==============================================================
+// GRAPHQL -- APOLLO (SERVER, NOT CLIENT)
+// const doBootApollo = true
+
+// if (doBootApollo) {
+//   const { ApolloServer } = require('apollo-server')
+//   const gql = require('graphql-tag')
+
+//   const typeDefs = gql`
+//     type Query {
+//       word:  String
+//     }
+//   `
+
+//   const resolvers = {
+//     Query: {
+//       word: () => "HEY HEY HEY"
+//     }
+//   }
+
+//   const schema = new ApolloServer({ typeDefs, resolvers })
+
+//   schema.listen({ port: process.env.PORT }).then(({ url }) => {
+//     console.debug(`schema ready at ${url}`)
+//   })
+// }
+
+// ==============================================================
+// REACT APP
 // Home function that is reflected across the site
 export default function Home() {
   return (
@@ -48,5 +78,5 @@ export default function Home() {
         </a>
       </footer>
     </Router>
-  );
+  )
 }
