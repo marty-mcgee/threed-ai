@@ -8,10 +8,11 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFFFA0;
-  --color-text-main: #000000;
-  --color-primary: #AFECE0;
-  --wrapper-height: 85vh;
+  --color-bg: #000000;
+  --color-text-main: #FFFFFF;
+  --color-text-link: #336633;
+  --color-primary: #272727;
+  --wrapper-height: 88vh;
   --image-max-width: 320px;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
@@ -49,7 +50,7 @@ to this section's matching END comment to see page-specific styles.
   align-items: center;
   cursor: pointer;
   background: #FFFFFF;
-  border: 1px solid #000000;
+  border: 1px solid #777777;
   box-sizing: border-box;
   border-radius: 4px;
   text-decoration: none;
@@ -61,7 +62,7 @@ to this section's matching END comment to see page-specific styles.
   margin-right: 0.5rem;
 }
 .btn--remix:hover {
-  background-color: #D0FFF1;
+  background-color: #777777;
 }
 
 /* Navigation grid */
@@ -81,7 +82,7 @@ a:not(.btn--remix):visited {
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;
-  color: #000;
+  color: var(--color-text-link);
   text-decoration: none;
   border-style: none;
 }
@@ -105,13 +106,14 @@ END Glitch hello-app default styles
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
+  color: var(--color-text-main);
 }
 .wrapper {
   min-height: var(--wrapper-height);
   display: grid;
   place-items: center;
   margin: 0 1rem;
-  min-height: 86vh;
+  min-height: 88vh;
 }
 .content {
   display: flex;
@@ -122,7 +124,7 @@ body {
 
 /* Page titles */
 h1 {
-  color: #2800FF;
+  color: #336633;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -132,13 +134,19 @@ h1 {
 .page h1 {
   font-size: 48px;
 }
+h2 {
+  color: #336633;
+}
+.page h2 {
+  font-size: 32px;
+}
 
 .page p {
   line-height: 1.5;
 }
 
 .page a {
-  color: #000;
+  color: var(--color-text-link);
 }
 
 .page a:hover {
@@ -169,7 +177,4 @@ h1 {
 }
 .instructions p {
   font-size: 1rem;
-}
-h2 {
-  color: #2800FF;
 }

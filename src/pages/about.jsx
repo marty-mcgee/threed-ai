@@ -9,16 +9,14 @@ import * as React from "react";
 
 export default function About() {
   /* DECLARE STYLE AND TRIGGER FOR WIGGLE EFFECT FROM TODO ON NEXT LINE */
-  
+
   return (
     <div className="page">
-      {/* REPLACE H1 ELEMENT BELOW WITH CODE FROM TODO */}
       <h1 className="title">
-        About this site
+        About threed.ai
       </h1>
-      {/* REPLACE OPENING P TAG BELOW WITH CODE FROM TODO */}
       <p>
-        Welcome to the Glitch React starter, where you can instantly create a
+        Welcome to 'threed', using this Glitch React starter, where you can instantly create a
         React site that's fully customizable.
       </p>
       <p>
@@ -56,16 +54,14 @@ export default function About() {
           .
         </li>
       </ul>
-
       <p>
-        {" "}
         The Glitch community is glad to welcome you, and the Internet is better
-        when it's made by real people. We can't wait to see what you create!
+        when it&apos;s made by real people. We can&apos;t wait to see what you create!
       </p>
       <p>
         Built with <a href="https://reactjs.org/">React</a> and{" "}
         <a href="https://vitejs.dev/">Vite</a> on{" "}
-        <a href="https://glitch.com/">Glitch</a>.
+        <a href="https://threed.ai/"></a>
       </p>
     </div>
   );
