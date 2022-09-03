@@ -1,6 +1,10 @@
 # [MM] HEY HEY HEY
 assets
+
+# lock files
 pnpm-lock.yaml
+package-lock.json
+yarn.lock
 
 # dependencies
 node_modules
