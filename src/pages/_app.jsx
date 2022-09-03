@@ -8,7 +8,7 @@ import 'src/styles/index.css'
 
 // ==============================================================
 // CUSTOM IMPORT (SSR true|false)
-const LCanvas = dynamic(() => import('@/components/layout/canvas'), {
+const LCanvas = dynamic(() => import('src/components/layout/canvas'), {
   ssr: true,
 })
 
