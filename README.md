@@ -1,3 +1,21 @@
+=================================================
+# threed-hasura-hello-remote-schema
+
+1. Schema:
+
+```
+type Query {
+  word:  String
+}
+```
+
+2. Click on **Show** *Live* at the top of the Glitch UI to get the URL.
+
+3. Add as Remote Schema in Hasura GraphQL Engine.
+
+4. Go to GraphiQL tab, and try out `query { word }` .
+
+=================================================
 # Hello React!
 
 This project contains a foundation for building and learning about React apps. The site includes two routes showing how navigation works in a single page app. We manage the page head and body using a standard React flow. The homepage features a click effect that demonstrates using state, and an animation you can try out yourself by following the steps in `TODO.md`. 💫

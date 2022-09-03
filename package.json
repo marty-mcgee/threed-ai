@@ -1,25 +1,44 @@
 {
-  "name": "threed-glitch-hello-react",
-  "version": "0.0.5.1",
-  "description": "A simple React single page app, built with Vite and React.",
+  "name": "threed",
+  "version": "0.0.6",
+  "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
+  "author": {
+    "name": "Marty McGee",
+    "email": "mcgee.marty@gmail.com",
+    "url": "https://threedgarden.com/demo"
+  },
+  "license": "ISC",
+  "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "mm": "echo \"Not a thing, sir.\" && exit 1",
+    "start": "node index.js",
+    "vite:start": "vite",
+    "dev": "echo \"Node Error: no 'dev' command specified\" && exit 1",
+    "vite:build": "vite build",
+    "vite:serve": "vite preview",
+    "test": "echo \"Node Error: no 'test' command specified\" && exit 1"
   },
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-spring": "^9.4.5",
-    "wouter": "^2.7.4",
-    "react-helmet-async": "^1.3.0",
+    "@react-three/fiber": "8.6.2",
     "@vitejs/plugin-react": "^1.3.2",
+    "apollo-server": "^2.2.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-spring": "^9.4.5",
+    "react-helmet-async": "^1.3.0",
     "three": "^0.144.0",
-    "farmbot": "^15.3.3",
-    "threed-garden": "^0.10.2"
+    "typescript": "4.8.2",
+    "webgl": "^0.0.7",
+    "wouter": "^2.7.4"
   },
   "devDependencies": {
     "vite": "^2.4.4"
+  },
+  "optionalDependencies": {
+    "farmbot": "^15.3.3",
+    "threed-garden": "^0.10.2"
   },
   "browserslist": [
     ">0.2%",
@@ -29,9 +48,18 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-react"
+    "url": "https://github.com/marty-mcgee/threed.git"
   },
   "glitch": {
     "projectType": "generated_static"
-  }
+  },
+  "keywords": [
+    "https://github.com/marty-mcgee/threed",
+    "https://github.com/marty-mcgee/threed-garden",
+    "https://threedgarden.com/demo",
+    "https://garden.university",
+    "threed",
+    "threedgarden",
+    "threedgarden.eth"
+  ]
 }
