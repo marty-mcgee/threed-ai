@@ -5,6 +5,13 @@ const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
 
 const nextConfig = {
+
+  // use SWC minify instead of Terser (7x faster)
+  swcMinify: true,
+
+  // do not use this in dev or prod
+  reactStrictMode: false,
+
   webpack(config, { isServer }) {
     // audio support
     config.module.rules.push({
@@ -31,6 +38,14 @@ const nextConfig = {
       exclude: /node_modules/,
       use: ['raw-loader', 'glslify-loader'],
     })
+    // config.module.rules.push({
+    //   test: /\.(glsl|vs|fs|vert|frag)$/,
+    //   loader: 'webpack-glsl'
+    // })
+    // config.module.rules.push({
+    //   test: /\.(frag|vert)$/,
+    //   type: 'asset/source'
+    // })
 
     return config
   },

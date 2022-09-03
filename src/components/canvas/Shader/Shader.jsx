@@ -4,8 +4,8 @@ import { useRef, useState } from 'react'
 import useStore from '~/stores/store'
 import { shaderMaterial } from '@react-three/drei'
 
-import vertex from './glsl/shader.vert'
-import fragment from './glsl/shader.frag'
+import vertex from 'raw-loader!glslify-loader!./glsl/shader.vert'
+import fragment from 'raw-loader!glslify-loader!./glsl/shader.frag'
 
 const ColorShiftMaterial = shaderMaterial(
   {
