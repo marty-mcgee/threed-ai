@@ -12,19 +12,19 @@ export default function Instructions() {
       </p>
       <div className='tracking-wider'>
         Step 1 - <span className='text-green-200'>update:</span>
-        <span className='text-red-200'> src/pages/index </span>
+        <span className='text-red-200'> ~/pages/index </span>
         <br />
         Step 2 - <span className='text-green-200'>update:</span>
-        <span className='text-red-200'> src/components/canvas/Shader/Shader </span>
+        <span className='text-red-200'> ~/components/canvas/Shader/Shader </span>
         <br />
         Step 3 - <span className='text-green-200'>delete:</span>
-        <span className='text-red-200'> src/pages/box </span>
+        <span className='text-red-200'> ~/pages/box </span>
         <br />
         Step 4 - <span className='text-green-200'>update header:</span>
-        <span className='text-red-200'> src/components/seo/config </span>
+        <span className='text-red-200'> ~/components/seo/config </span>
         <br />
         Step 5 - <span className='text-green-200'>delete:</span>
-        <span className='text-red-200'> src/components/dom/Instructions</span>
+        <span className='text-red-200'> ~/components/dom/Instructions</span>
       </div>
     </div>
   )
