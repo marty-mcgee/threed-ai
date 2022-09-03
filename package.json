@@ -15,7 +15,7 @@
     "mm:apollo":      "node src/servers/apollo.js",
     "mm:vite":        "vite",
     "mm:error":       "echo \"Not a thing, sir.\" && exit 1",
-    "node__________": "____________________________________",
+    ":node_________": "____________________________________",
     "node:start":     "node index.js",
     ":vite_________": "____________________________________",
     "vite:start":     "vite",
