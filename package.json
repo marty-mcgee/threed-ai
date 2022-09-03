@@ -30,7 +30,7 @@
     "_____________5": "_____________________________________",
     "test":           "echo \"Node Error: no 'test' command specified\" && exit 1",
     "_____________6": "_____________________________________",
-    "yarn:lint":      "yarn prettier && yarn eslint",
+    "pnpm:lint":      "pnpm next:prettier && pnpm next:eslint",
     "_____________7": "_____________________________________",
     "next:eslint":    "next lint --fix --dir src",
     "next:prettier":  "prettier -l \"./src/**/*.{js,jsx,md}\"",
