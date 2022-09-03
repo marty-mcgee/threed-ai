@@ -57,8 +57,9 @@ const nextConfig = {
     //   '@/*': path.resolve(__dirname, 'src/*')
     // }
 
-    config.resolve.alias['~/*'] = path.join(___dirname, '/src/*')
-    config.resolve.alias['@/*'] = path.join(___dirname, '/src/*')
+    config.cache = false
+    config.resolve.alias['~/'] = path.join(___dirname, 'src/')
+    config.resolve.alias['@/'] = path.join(___dirname, 'src/')
 
     return config
   },
