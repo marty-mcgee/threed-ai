@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Switch, Route, Router } from "wouter";
-import Home from "../pages/home";
-import About from "../pages/about";
+import Home from "../../pages/home";
+import About from "../../pages/about";
 
 /**
 * The router is imported in app.jsx
@@ -11,6 +11,7 @@ import About from "../pages/about";
 * We use Switch to only render one route at a time https://github.com/molefrog/wouter#switch-
 */
 
+// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
 export default () => (
     <Switch>
       <Route path="/" component={Home} />

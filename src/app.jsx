@@ -15,7 +15,7 @@ import { Router, Link } from "wouter";
 import "./styles/styles.css";
 
 // Where all of our pages come from
-import PageRouter from "./components/router.jsx";
+import PageRouter from "./components/router/router.jsx";
 
 // The component that adds our Meta tags to the page
 import Seo from './components/seo/seo.jsx';
