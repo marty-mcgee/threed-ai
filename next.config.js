@@ -4,6 +4,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
 
+// const path = require('path')
+
 const nextConfig = {
 
   // use SWC minify instead of Terser (7x faster)
@@ -37,15 +39,22 @@ const nextConfig = {
       test: /\.(glsl|vs|fs|vert|frag)$/,
       exclude: /node_modules/,
       use: ['raw-loader', 'glslify-loader'],
-    })
-    // config.module.rules.push({
-    //   test: /\.(glsl|vs|fs|vert|frag)$/,
-    //   loader: 'webpack-glsl'
-    // })
-    // config.module.rules.push({
-    //   test: /\.(frag|vert)$/,
-    //   type: 'asset/source'
-    // })
+    }),
+      // config.module.rules.push({
+      //   test: /\.(glsl|vs|fs|vert|frag)$/,
+      //   loader: 'webpack-glsl'
+      // }),
+      // config.module.rules.push({
+      //   test: /\.(frag|vert)$/,
+      //   type: 'asset/source'
+      // }),
+
+      config.resolve.alias = {
+        // Templates: path.resolve(__dirname, 'templates/'),
+        // Components: path.resolve(__dirname, 'components/'),
+        '~/*': 'src/*',
+        '@/*': 'src/*'
+      }
 
     return config
   },
