@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "origin": "INTERNAL",
+    "name": "pd-open-datasets-bicycle-detection-kitti-mm",
+    "creator": "support@paralleldomain.com",
+    "available_annotation_types": [0],
+    "creation_date": "2021-11-15T23:59:03.933376Z",
+    "updatemm_date": "2022-08-31T23:59:59.999999Z",
+    "version": "0.2.1.1",
+    "authors": [
+      {
+        "name": "ParallelDomainSceneMetadata",
+        "email": "support@paralleldomain.com"
+      },
+      {
+        "name": "Marty McGee",
+        "email": "mcgee.marty@gmail.com"
+      }
+    ],
+    "description": "[MM] HEY HEY HEY : Large quantity of JSON {object} files for access as a simple GraphQL/PostgresQL data source.. requiring large bursts of full/all data file access.. used for real-time data analysis at random event triggers."
+  },
+  "hey_hey_hey": {
+    "word": "HEY HEY HEY",
+    "notes": "[MM] HEY HEY "
+  }
+}
