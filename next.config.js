@@ -4,7 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
 
-// const path = require('path')
+const path = require('path')
 
 const nextConfig = {
 
@@ -52,8 +52,8 @@ const nextConfig = {
       config.resolve.alias = {
         // Templates: path.resolve(__dirname, 'templates/'),
         // Components: path.resolve(__dirname, 'components/'),
-        '~/*': 'src/*',
-        '@/*': 'src/*'
+        '~/*': path.resolve(__dirname, 'src/*'),
+        '@/*': path.resolve(__dirname, 'src/*')
       }
 
     return config
