@@ -39,22 +39,26 @@ const nextConfig = {
       test: /\.(glsl|vs|fs|vert|frag)$/,
       exclude: /node_modules/,
       use: ['raw-loader', 'glslify-loader'],
-    }),
-      // config.module.rules.push({
-      //   test: /\.(glsl|vs|fs|vert|frag)$/,
-      //   loader: 'webpack-glsl'
-      // }),
-      // config.module.rules.push({
-      //   test: /\.(frag|vert)$/,
-      //   type: 'asset/source'
-      // }),
+    })
 
-      config.resolve.alias = {
-        // Templates: path.resolve(__dirname, 'templates/'),
-        // Components: path.resolve(__dirname, 'components/'),
-        '~/*': path.resolve(__dirname, 'src/*'),
-        '@/*': path.resolve(__dirname, 'src/*')
-      }
+    // config.module.rules.push({
+    //   test: /\.(glsl|vs|fs|vert|frag)$/,
+    //   loader: 'webpack-glsl'
+    // })
+    // config.module.rules.push({
+    //   test: /\.(frag|vert)$/,
+    //   type: 'asset/source'
+    // })
+
+    // config.resolve.alias = {
+    //   // Templates: path.resolve(__dirname, 'templates/'),
+    //   // Components: path.resolve(__dirname, 'components/'),
+    //   '~/*': path.resolve(__dirname, 'src/*'),
+    //   '@/*': path.resolve(__dirname, 'src/*')
+    // }
+
+    config.resolve.alias['~/'] = path.join(___dirname, 'src/')
+    config.resolve.alias['@/'] = path.join(___dirname, 'src/')
 
     return config
   },
