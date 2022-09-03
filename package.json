@@ -11,6 +11,7 @@
   "main": "index.js",
   "scripts": {
     "mm:node": "node index.js",
+    "mm:apollo": "node src/servers/apollo.js",
     "mm:vite": "vite",
     "mm:error": "echo \"Not a thing, sir.\" && exit 1",
     "node:start": "node index.js",
