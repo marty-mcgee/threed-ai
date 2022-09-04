@@ -1,23 +1,5 @@
-===============================================================================
-# threed-hasura-hello-remote-schema from Hasura
-
-1. Schema:
-
-```
-type Query {
-  word:  String
-}
-```
-
-2. Click on **Show** *Live* at the top of the Glitch UI to get the URL.
-
-3. Add as Remote Schema in Hasura GraphQL Engine.
-
-4. Go to GraphiQL tab, and try out `query { word }` .
-
-
-===============================================================================
-# hello threed.ai from Glitch
+======================================================================
+# hello threed.ai from Vite + React
 
 This project contains a foundation for building and learning about React apps. The site includes two routes showing how navigation works in a single page app. We manage the page head and body using a standard React flow. The homepage features a click effect that demonstrates using state, and an animation you can try out yourself by following the steps in `TODO.md`. 💫
 
@@ -71,20 +53,7 @@ React defines site components in [JSX](https://reactjs.org/docs/introducing-jsx.
 
 Take a look in `TODO.md` for next steps you can try out in your new site!
 
-**_Want a minimal version of this project to build your own React app? Check out [Blank React](https://glitch.com/edit/#!/remix/glitch-blank-react)!_**
-
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
-## You built this with Glitch!
-
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
-
-- Want more details about React on Glitch? We've got a [Help Center article](https://help.glitch.com/kb/article/112) for you.
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
-
-
-===============================================================================
+======================================================================
 # React Three Fiber on NextJS
 
 [![Downloads](https://img.shields.io/npm/dt/create-r3f-app.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/create-r3f-app) [![Discord Shield](https://img.shields.io/discord/740090768164651008?style=flat&colorA=000000&colorB=000000&label=discord&logo=discord&logoColor=ffffff)](https://discord.gg/ZZjjNvJ)
@@ -178,7 +147,3 @@ export default Page
 git clone https://github.com/pmndrs/react-three-next
 && cd react-three-next && yarn install
 ```
-
-### Maintainers :
-
-- [`twitter 🐈‍⬛ @onirenaud`](https://twitter.com/onirenaud)
