@@ -1,7 +1,7 @@
 {
-  "name": "threed",
-  "version": "0.0.12",
-  "description": "'threed' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
+  "name": "threed-ai",
+  "version": "0.1.0",
+  "description": "'threed-ai' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
   "author": {
     "name": "Marty McGee",
     "email": "mcgee.marty@gmail.com",
