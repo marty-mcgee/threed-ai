@@ -1,6 +1,6 @@
 {
   "name": "threed-ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "'threed-ai' on Vite, Next, and Nuxt, is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <r3Fiber>, GraphQL', in extremely active development",
   "author": {
     "name": "Marty McGee",
