@@ -1,6 +1,6 @@
 {
   "name": "threed-ai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "'threed-ai' is a functioning, legit, low-dependency app, a package supporting a monorepo of workspaces that utilize/depend on 'ThreeJS, WebGL, React, TypeScript <Fiber>, GraphQL', in extremely active development",
   "author": {
     "name": "Marty McGee",
@@ -69,14 +69,14 @@
   },
   "optionalDependencies": {
     "farmbot": "^15.3.3",
-    "threed-garden": "^0.10.2",
+    "threed-garden": "^0.11.7",
     
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@react-three/drei": "^9.14.3",
     "@react-three/fiber": "^8.0.27",
     "babel-plugin-glsl": "^1.0.0",
     "glsl-random": "^0.0.5",
-    "next": "^12.2.3",
+    "next": "^12.3.1",
     "next-pwa": "^5.5.4",
     "three-stdlib": "^2.12.1",
     "zustand": "^4.0.0",

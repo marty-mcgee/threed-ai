@@ -1,11 +1,15 @@
 ======================================================================
-# hello threed.ai from Vite + React
+# 🌱 threed.ai -- using React, Three JS, React Three Fiber, on Vite
 
 This project contains a foundation for building and learning about React apps. The site includes two routes showing how navigation works in a single page app. We manage the page head and body using a standard React flow. The homepage features a click effect that demonstrates using state, and an animation you can try out yourself by following the steps in `TODO.md`. 💫
 
 [React](https://reactjs.org/) is a popular UI library for building web apps. [Vite](https://vitejs.dev/) is a powerful tool for building javascript apps that bundles all of your code and shows immediate changes while you're editing.
 
-_While you're in the editor working, Glitch is running your `start` script in the background (`vite dev`). The site will be in dev mode and you'll see your changes happen ✨ immediately in the preview window. Once you close the editor window and your app goes to sleep, Glitch runs the `build` script and Vite builds your app for modern browsers._
+_While you're in the editor working, Vite is running your `start` script in the background (`vite dev`). The site will be in dev mode and you'll see your changes happen ✨ immediately in the preview window. Once you close the editor window and your app goes to sleep, Vite runs the `build` script and Vite builds your app for modern browsers._
+
+## Live Demo
+
+[threed.ai](https://threed.ai/)
 
 ## Prerequisites
 
@@ -72,8 +76,8 @@ Minimalist starter, First Load JS of 85Kb. This starter will automatically pick 
 _Tailwind is the default style. styled-components (styled) is also available._
 
 ```sh
-yarn create r3f-app next my-app
-# yarn create r3f-app <next> my-app <tailwind|styled>? -ts?
+pnpm create r3f-app next my-app
+# pnpm create r3f-app <next> my-app <tailwind|styled>? -ts?
 ```
 
 or
@@ -87,7 +91,7 @@ npx create-r3f-app next my-app
 For typescript add the parameter `-ts` or `--typescript`:
 
 ```sh
-yarn create r3f-app next my-app -ts
+pnpm create r3f-app next my-app -ts
 ```
 
 ### :mount_fuji: Features
@@ -126,12 +130,12 @@ export default Page
 
 ### :control_knobs: Available Scripts
 
-- `yarn dev` - Next dev
-- `yarn analyze` - Generate bundle-analyzer
-- `yarn lint` - Audit code quality
-- `yarn build` - Next build
-- `yarn start` - Next start
-- `yarn export` - Export to static HTML
+- `pnpm dev` - Next dev
+- `pnpm analyze` - Generate bundle-analyzer
+- `pnpm lint` - Audit code quality
+- `pnpm build` - Next build
+- `pnpm start` - Next start
+- `pnpm export` - Export to static HTML
 
 ### ⬛ Stack
 
@@ -141,9 +145,3 @@ export default Page
 - [`@react-three/a11y` - Optional](https://github.com/pmndrs/react-three-a11y/) &ndash; Accessibility tools for React Three Fiber
 - [`r3f-perf` - Optional](https://github.com/RenaudRohlinger/r3f-perf) &ndash; Tool to easily monitor react threejs performances.
 
-### How to contribute :
-
-```bash
-git clone https://github.com/pmndrs/react-three-next
-&& cd react-three-next && yarn install
-```
