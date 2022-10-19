@@ -38,4 +38,5 @@ const BoxComponent = ({ route }) => {
     </>
   )
 }
+
 export default BoxComponent
