@@ -22,33 +22,6 @@ import PageRouter from "~/components/router/router.jsx"
 import Seo from '~/components/seo/seo.jsx'
 
 // ==============================================================
-// GRAPHQL -- APOLLO (SERVER, NOT CLIENT)
-// const doBootApollo = true
-
-// if (doBootApollo) {
-//   const { ApolloServer } = require('apollo-server')
-//   const gql = require('graphql-tag')
-
-//   const typeDefs = gql`
-//     type Query {
-//       word:  String
-//     }
-//   `
-
-//   const resolvers = {
-//     Query: {
-//       word: () => "HEY HEY HEY"
-//     }
-//   }
-
-//   const schema = new ApolloServer({ typeDefs, resolvers })
-
-//   schema.listen({ port: process.env.PORT }).then(({ url }) => {
-//     console.debug(`schema ready at ${url}`)
-//   })
-// }
-
-// ==============================================================
 // REACT APP
 // Home function that is reflected across the site
 export default function Home() {
