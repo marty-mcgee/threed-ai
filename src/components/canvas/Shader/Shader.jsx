@@ -11,7 +11,7 @@ import fragment from 'raw-loader!glslify-loader!./glsl/shader.frag'
 const ColorShiftMaterial = shaderMaterial(
   {
     time: 0,
-    color: new THREE.Color(0.05, 0.0, 0.025),
+    color: new THREE.Color(0.07, 0.4, 0.00),
   },
   vertex,
   fragment
