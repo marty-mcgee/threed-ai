@@ -1,6 +1,6 @@
 {
   "name": "threed-ai",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "'threed-ai' supporting Vite, Next, Nuxt, as a functioning, low-dependency app, a package supporting monorepos of workspaces that utilize 'ThreeJS, WebGL, React, TypeScript <r3Fiber>, GraphQL'.",
   "author": {
     "name": "Marty McGee",
@@ -10,6 +10,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
+    "______________": "_____________________________________",
+    "start":          "vite",
+    "build":          "vite build",
+    "serve":          "vite preview",
     ":____________0": "_____________________________________",
     "mm":             "node index.js",
     "mm:node":        "node index.js",
@@ -42,7 +46,7 @@
     "_____________X": "_____________________________________"
   },
   "dependencies": {
-    "@react-three/fiber": "8.6.2",
+    "@react-three/fiber": "^8.8.10",
     "apollo-server": "^3.10.2",
     "graphql": "^16.6.0",
     "graphql-tag": "^2.10.1",
@@ -68,9 +72,10 @@
     "vite": "^3.0.9"
   },
   "optionalDependencies": {
-    "farmbot": "^15.3.3",
-    "threed-garden": "^0.11.7",
-    
+    "chatgpt": "^5.2.5",
+    "farmbot": "^15.8.1",
+    "threed-garden": "^0.15.0-alpha.12",
+
     "@babel/plugin-transform-runtime": "^7.17.0",
     "@react-three/drei": "^9.14.3",
     "@react-three/fiber": "^8.0.27",
@@ -115,8 +120,7 @@
   "keywords": [
     "https://github.com/marty-mcgee/threed",
     "https://github.com/marty-mcgee/threed-garden",
-    "https://threedgarden.com/demo",
-    "https://garden.university",
+    "https://threedgarden.com",
     "threed",
     "threedgarden",
     "threedgarden.eth",

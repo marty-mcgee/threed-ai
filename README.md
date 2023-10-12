@@ -145,3 +145,25 @@ export default Page
 - [`@react-three/a11y` - Optional](https://github.com/pmndrs/react-three-a11y/) &ndash; Accessibility tools for React Three Fiber
 - [`r3f-perf` - Optional](https://github.com/RenaudRohlinger/r3f-perf) &ndash; Tool to easily monitor react threejs performances.
 
+### About the Author -- Marty McGee
+
+🌱 Marty is a Front-End + Full-Stack Web Developer using JavaScript, TypeScript, Three JS (WebGL), React 16+, NextJS 12+, WordPress 5+, PHP 7+, MS SQL, MySQL, GraphQL (Apollo), AWS DynamoDB, EC2, S3, REST APIs, HTML 5, CSS 3, Photoshop, SEO, WCAG 2.1 Accessibility Compliance, Project Management, “HubSpot” Marketing, UI/UX Lead Capture + Fulfillment, Linux, Windows, Apple OS + Hardware (Networking, Processing, de/centralized Storage, Data Delivery, ioT)
+
+🔭 Marty is currently working in Three JS, React Three Fiber, React 18.2, TypeScript, JavaScript, WordPress PHP + Gutenberg Plugins, WP REST API, GraphQL on Apollo Client + WP GraphQL, 3D Object Modeling, OpenJSCAD, + Node.js, running AWS DynamoDB, EC2, Vercel, Git, Smart Contracts, + Ethereum dApps.
+
+💬 Ask Marty about FarmBot, React 18, Apollo Client+Server, GraphQL, NextJS + Vercel, serverless deployments, GitHub + NPM, Vue 3, Vite on Nuxt, Vuex vs Pinia, "Headless" WordPress CMS, Gutenberg, SEO, Ecommerce, Web3, WCAG 2.1 Compliance for Accessibility, or anything else you'd like to know more about :)
+
+===
+
+EXPERIENCE:
+
+* 50+ enterprise web applications developed and in production. 
+* 200+ websites designed, installed, managed, and hosted. 
+* 20+ years Enterprise E-Commerce experience as Full-Stack Senior Web Application Developer, Director of Marketing, Director of IT, and a few stepping stones in between.
+* Expert in JavaScript + TypeScript, React 18, Next 12, Vue 3, Nuxt 3, Pinia/Vuex, Apollo Client+Server, PHP, WordPress, REST APIs, Microsoft SQL Server, MySQL, Apache, HTML, CSS, Windows and Mac OS, Windows Server, Amazon Web Services, and Advanced PC Hardware, Digital Marketing, HubSpot Inbound Marketing, ABM (Account Based Marketing), Social Media Marketing, and Human Communication.
+* Lead Developer for ThreeD.AI and ThreeD Garden web three.js open source dev + training platforms.
+* Lead Developer for Company Juice WordPress Enterprise Framework.
+* Lead Developer for CartFusion Open Source E-Commerce application suite.
+* Entrepreneurial traveling REMOTE JavaScript/TypeScript + SQL/GQL programmer since 1999.
+
+🌱 let's get growin!
