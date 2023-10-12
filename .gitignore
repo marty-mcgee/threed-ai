@@ -3,9 +3,9 @@ assets
 packages
 
 # lock files
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
 
 # dependencies
 node_modules
