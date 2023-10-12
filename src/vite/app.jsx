@@ -24,6 +24,7 @@ import Seo from "~/components/seo/seo.jsx"
 
 // Home 'App' function that is reflected across the site
 export default function Home() {
+  // **
   return (
     <Router>
       <Seo />
